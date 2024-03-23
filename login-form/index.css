@@ -1,0 +1,90 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    background-color:rgb(224, 221, 221);
+    
+}
+.grid-container .form-background{
+    background-image: url("./images/form.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.grid-container .grid-item1{
+    padding-top: 5px;
+   
+}
+.grid-container .grid-item1 p, h3 ,.Signup{
+    padding-left: 40px;
+}
+.grid-container .grid-item1 .user-form{
+    padding-left: 40px;
+    background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; ;
+}
+
+.upper p{
+    
+    font-size: 2em;
+}
+
+.user-form{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-top:40px;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-basis: 50%;
+    flex-grow: 0;
+    width: fit-content;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding-top: 10px;
+    
+}
+
+/* Padding and margin adjustment for Form label and input section  */
+label{
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+label>input{
+    margin-left: 5px;
+}
+form .password{
+    margin-left: 10px;
+}
+form .email{
+    margin-left: 38px;
+}
+form .number{
+    margin-left: 65px;
+}form .last-name{
+    margin-left: 48px;
+}
+
+form button {
+    color:white;
+    background-color: rgb(7, 125, 7);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Signup button{
+    padding: 10px;
+    background-color: rgb(24, 150, 185);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+.Signup .login{
+    margin-left: -40px;
+}
+.Signup span{
+    color: green;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
