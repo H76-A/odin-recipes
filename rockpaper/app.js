@@ -11,7 +11,7 @@ function getComputerChoice(choices) {
     // Return the computer's choice based on the random index
     return choices[randomIndex];
   }
-  
+ 
 document.addEventListener('DOMContentLoaded', () => {
 
     
