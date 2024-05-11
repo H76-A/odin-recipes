@@ -1,0 +1,130 @@
+body{
+    background-color: #E2E8F0;
+}
+header{
+    padding-left: 50px;
+    padding-top:20px;
+}
+ header .top{
+    display: flex;
+    flex-direction: row;
+ }
+header input{
+    width: 550px;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+header .search{
+    width:20px;
+    height: 20px;
+    
+}
+header .bell{
+    width: 20px;
+    height: 25px;
+    margin-left: 100px;
+}
+header .eye{
+    width: 40px;
+    height: 30px;
+    margin-left: 4%;
+}
+header .top h4{
+    margin-left: 20px;
+    height: 20px;
+    
+    margin-top: 5px;
+}
+
+.sideBar{
+    position: fixed;
+    height: 100%;
+    display: flex;
+    width: 15%;
+    flex-direction: column;
+    background-color: #1992D4;
+    left: 0;
+    color: white;
+    top: 0;
+
+
+}
+.sideBar ul{
+    margin-top: 20px;
+}
+.sideBar ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+header , main {
+    margin-left: 14.6%;
+   
+}
+header{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+main .projects{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+ 
+}
+main .projects div{
+    padding: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+main .extras{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+
+}
+main .extras{
+    margin-left: 10%;
+}
+main .extras .annousments{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 10px;
+}
+main .extras .annousments li{
+    list-style: none;
+    line-height: 0.5;
+    
+}
+main .extras section{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+main .extras section .info li{
+    list-style-type: none;
+}
+main .extras section .logo{
+ display: flex;
+ flex-direction: column;
+ 
+}
+main .extras section .logo li{
+    list-style-type: none;
+    margin-bottom: 55px;
+}
