@@ -1,0 +1,35 @@
+.container{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 200px 200px;
+    gap: 50px;
+}
+.container > div{
+    background-color: bisque;
+}
+
+.font{
+    font-size: 2em;
+}
+.h1-color{
+    color:red;
+    size: 2em;
+}
+.btn{
+    margin-top: 20px;
+    background-color: brown;
+    color: aliceblue;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.new-btn{
+    margin-top: 20px;
+    background-color: rgb(42, 42, 165);
+    color: aliceblue;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
